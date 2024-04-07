@@ -1,3 +1,4 @@
+// class형으로 변경
 const http = require("http");
 const url = require("url");
 

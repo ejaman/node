@@ -1,7 +1,4 @@
 import myApp from "./feedback2.mjs";
-// Goal: build simple Node.js library like express.js (by using only standard library)
-// TODO1: can handle ‘GET’ request
-// TODO2: can listen on port given as parameter
 
 const app = new myApp();
 const port = 3000;

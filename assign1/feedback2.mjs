@@ -6,6 +6,10 @@ class MyApp {
     this.routes = {
       GET: {},
     };
+    // TODO: check - this binding issue
+    // this.handleRequest = this.handleRequest.bind(this);
+    // this.listen = this.listen.bind(this);
+    // this.get = this.get.bind(this);
   }
 
   handleRequest = (req, res) => {

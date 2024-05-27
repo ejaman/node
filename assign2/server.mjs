@@ -117,8 +117,6 @@ app.delete("/posts/:id", (req, res) => {
 
 // Authentication middleware
 const authenticate = (req, res, next) => {
-  // Here you can implement your authentication logic
-  // For simplicity, I'm just allowing all requests
   next();
 };
 
